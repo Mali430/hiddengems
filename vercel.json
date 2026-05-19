@@ -9,8 +9,5 @@
 \f0\fs18 \cf2 \cb3 \expnd0\expndtw0\kerning0
 \{\
   "buildCommand": "npm run build",\
-  "outputDirectory": "build",\
-  "env": \{\
-    "CI": "true"\
-  \}\
+  "outputDirectory": "build"\
 \}}
