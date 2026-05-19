@@ -1,38 +1,16 @@
 {\rtf1\ansi\ansicpg1252\cocoartf2868
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 .AppleSystemUIFontMonospaced-Regular;}
-{\colortbl;\red255\green255\blue255;\red246\green246\blue244;\red33\green33\blue31;\red133\green131\blue121;
-}
-{\*\expandedcolortbl;;\cssrgb\c97255\c97255\c96471;\cssrgb\c17255\c17255\c16471;\cssrgb\c59216\c58431\c54902;
-}
+{\colortbl;\red255\green255\blue255;\red246\green246\blue244;\red33\green33\blue31;}
+{\*\expandedcolortbl;;\cssrgb\c97255\c97255\c96471;\cssrgb\c17255\c17255\c16471;}
 \paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
 \deftab720
 \pard\pardeftab720\partightenfactor0
 
 \f0\fs18 \cf2 \cb3 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 \{\cb1 \
-\cf4 \strokec4 \
-\cf2 \cb3 \strokec2      "buildCommand": "npm run build",\cb1 \
-\cf4 \strokec4 \
-\cf2 \cb3 \strokec2      "outputDirectory": "build"\cb1 \
-\cf4 \strokec4 \
-\cf2 \cb3 \strokec2    \}\cb1 \
-\cf4 \strokec4 \
-\cf2 \cb3 \strokec2 \'a0\cb1 \
-\cf4 \strokec4 \
-\cf2 \cb3 \strokec2 3. Open Terminal/Command Prompt and run:\cb1 \
-\cf4 \strokec4 \
-\cf2 \cb3 \strokec2    \cb1 \
-\cf4 \strokec4 \
-\cf2 \cb3 \strokec2    cd hiddengems\cb1 \
-\cf4 \strokec4 \
-\cf2 \cb3 \strokec2    git init\cb1 \
-\cf4 \strokec4 \
-\cf2 \cb3 \strokec2    git add .\cb1 \
-\cf4 \strokec4 \
-\cf2 \cb3 \strokec2    git commit -m "Initial"\cb1 \
-\cf4 \strokec4 \
-\cf2 \cb3 \strokec2    git branch -M main\cb1 \
-\cf4 \strokec4 \
-\cf2 \cb3 \strokec2    git remote add origin https://github.com/YOUR_USERNAME/hiddengems\cb1 \
-\cf4 \strokec4 \
-\cf2 \cb3 \strokec2    git push -u origin main}
+\{\
+  "buildCommand": "npm run build",\
+  "outputDirectory": "build",\
+  "env": \{\
+    "CI": "true"\
+  \}\
+\}}
